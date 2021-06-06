@@ -35,8 +35,8 @@ def horizontalcollage(image_list):
 # In[49]:
 
 
-img1=cv2.imread("Documents/flower.jpg")
-img2=cv2.imread("Documents/btrfly.jpg")
+img1=cv2.imread("sample_images/flower.jpg")
+img2=cv2.imread("sample_images/btrfly.jpg")
 showimg(img1)
 showimg(img2)
 
@@ -53,7 +53,7 @@ showimg(vcollage)
 # In[53]:
 
 
-img3=cv2.imread("Documents/pink.jpg")
+img3=cv2.imread("sample_images/pink.jpg")
 showimg(img3)
 
 
